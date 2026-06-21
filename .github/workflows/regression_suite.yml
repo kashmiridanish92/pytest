@@ -1,6 +1,7 @@
 name: Regression suite
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
